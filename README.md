@@ -99,14 +99,3 @@ Edit
 
 ---
 
-### ✅ STEP 2: Click "Commit changes..."
-
-In the GitHub UI:
-- Scroll down below the edit area
-- Add a commit message:  
-  `Added beautiful project README`
-- Click the green button: **"Commit changes"**
-
-Once done, tell me and we’ll go to the next (optional) step: **adding a `requirements.txt` or images**.
-
-Let me know!
