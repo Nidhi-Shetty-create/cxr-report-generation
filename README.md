@@ -95,9 +95,4 @@ python evaluate.py --model convnext_transformer --checkpoint checkpoints/convnex
 - Pretrained weights from [Torchvision](https://pytorch.org/vision/stable/index.html) and [timm](https://huggingface.co/docs/timm/index)   
   
 
-## 📜 License
-
-This project is licensed under the **MIT License**.  
-
-
 
