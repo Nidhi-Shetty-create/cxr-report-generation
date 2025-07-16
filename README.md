@@ -87,16 +87,17 @@ python evaluate.py --model <model_name> --checkpoint <path_to_checkpoint>
 python evaluate.py --model convnext_transformer --checkpoint checkpoints/convnext_best.pt
 ```
 ---
-🤝 Acknowledgements
-MIMIC-CXR dataset by PhysioNet
+## 🤝 Acknowledgements
 
-Hugging Face Transformers
+- [MIMIC-CXR dataset](https://physionet.org/content/mimic-cxr/2.0.0/) by PhysioNet 🩻  
+- [Hugging Face Transformers](https://huggingface.co/transformers) 🤗  
+- [PyTorch Lightning](https://www.pytorchlightning.ai/) ⚡ *(optional)*  
+- Pretrained weights from [Torchvision](https://pytorch.org/vision/stable/index.html) and [timm](https://huggingface.co/docs/timm/index) 🏋️  
+  
 
-PyTorch Lightning (optional)
+## 📜 License
 
-ViT, Swin, ConvNeXt pretrained weights from torchvision or timm
-
-📜 License
-This project is licensed under the MIT License. See LICENSE for details.
+This project is licensed under the **MIT License**.  
+See the [LICENSE](./LICENSE) file for details. 📄
 
 
