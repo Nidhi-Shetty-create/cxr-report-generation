@@ -86,43 +86,7 @@ python evaluate.py --model <model_name> --checkpoint <path_to_checkpoint>
 # Example:
 python evaluate.py --model convnext_transformer --checkpoint checkpoints/convnext_best.pt
 ```
-📦 Dependencies
-Python 3.8+
-
-PyTorch
-
-Transformers
-
-torchvision
-
-nltk
-
-scikit-learn
-
-bash
-Copy
-Edit
-pip install -r requirements.txt
-🛡️ Note
-Dataset files like MIMIC-CXR, image-text pairs, and .pt files are not included in the public repo to respect data privacy.
-
-🧾 Credits
-MIMIC-CXR Dataset
-
-Hugging Face Transformers
-
-OpenAI GPT-2
-
-📬 Contact
-Feel free to connect: Nidhi Shetty
-GitHub | LinkedIn
-
-📄 License
-MIT License
-
-yaml
-Copy
-Edit
-
 ---
+
+
 
