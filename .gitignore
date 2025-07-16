@@ -1,0 +1,31 @@
+# Ignore dataset and tokenized data
+data/
+*.pt
+
+# Python cache and temp files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.ipynb_checkpoints/
+
+# Environment and dependency files
+.env
+.venv/
+env/
+venv/
+*.egg-info/
+
+# Output and logs
+*.log
+logs/
+outputs/
+checkpoints/
+runs/
+wandb/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# VS Code settings (optional)
+.vscode/
