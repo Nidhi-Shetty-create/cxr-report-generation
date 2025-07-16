@@ -53,11 +53,11 @@ internship/
 
 | 📦 Model                       | 🧪 Val Loss | 🧪 Test Loss | 🔹 BLEU-1 | 🔹 BLEU-4 | 🔹 ROUGE-L | 🔹 METEOR | 🔍 Remarks                            |
 | ------------------------------ | ----------: | -----------: | --------: | --------: | ---------: | --------: | ------------------------------------- |
-| ViT + GPT-2                    |      1.3667 |       1.2183 |     0.421 |     0.087 |      0.331 |     0.103 | ⚠️ Needs improvement; vague in areas  |
-| ResNet-50 + LSTM               |      2.8704 |       2.4091 |     0.297 |     0.045 |      0.229 |     0.071 | 🔻 Struggles with coherence           |
-| DenseNet + Transformer Decoder |      2.6012 |       2.1193 |     0.332 |     0.061 |      0.268 |     0.091 | ↗ Slightly better but still redundant |
-| Swin Transformer + GPT-2       |      1.2495 |       1.0812 |     0.447 |     0.097 |      0.352 |     0.111 | ✅ Better specificity, less repetition |
-| ConvNeXt + Transformer Decoder |      1.1063 |       0.9678 |     0.489 |     0.134 |      0.398 |     0.127 | ⭐️ Best model; detailed & structured  |
+| ViT + GPT-2                    |      1.3667 |       1.2183 |     0.421 |     0.087 |      0.331 |     0.103 | Needs improvement; vague in areas  |
+| ResNet-50 + LSTM               |      2.8704 |       2.4091 |     0.297 |     0.045 |      0.229 |     0.071 | Struggles with coherence           |
+| DenseNet + Transformer Decoder |      2.6012 |       2.1193 |     0.332 |     0.061 |      0.268 |     0.091 | Slightly better but still redundant |
+| Swin Transformer + GPT-2       |      1.2495 |       1.0812 |     0.447 |     0.097 |      0.352 |     0.111 | Better specificity, less repetition |
+| ConvNeXt + Transformer Decoder |      1.1063 |       0.9678 |     0.489 |     0.134 |      0.398 |     0.127 | Best model; detailed & structured  |
 
 ---
 
