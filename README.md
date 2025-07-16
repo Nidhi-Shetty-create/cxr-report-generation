@@ -33,7 +33,8 @@ internship/
 ├── train.py
 ├── evaluate.py
 └── Data_prep.ipynb
-</details> ```
+```
+</details> 
 
 
 ---
