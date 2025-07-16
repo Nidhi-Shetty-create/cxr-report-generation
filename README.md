@@ -64,11 +64,28 @@ internship/
 ## 🚀 How to Train
 
 ```bash
-python train.py --model convnext_transformer
+# Step 1: Install requirements
+pip install -r requirements.txt
 
-Use the train.py file to specify models, batch sizes, etc.
-python evaluate.py --model convnext_transformer
+# Step 2: Prepare your data (MIMIC-CXR or your dataset)
+# Make sure it's in the format expected by `datasets/mimic_dataset.py`
 
+# Step 3: Run training script
+python train.py --model <model_name> --epochs <num_epochs> --batch_size <bs> --lr <learning_rate>
+
+# Example:
+python train.py --model vit_gpt2 --epochs 20 --batch_size 8 --lr 1e-4
+```
+
+## How to Evaluate
+
+```bash
+# Evaluate trained model on test set
+python evaluate.py --model <model_name> --checkpoint <path_to_checkpoint>
+
+# Example:
+python evaluate.py --model convnext_transformer --checkpoint checkpoints/convnext_best.pt
+```
 📦 Dependencies
 Python 3.8+
 
