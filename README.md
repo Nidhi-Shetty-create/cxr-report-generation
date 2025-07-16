@@ -7,12 +7,12 @@ A vision-language deep learning project for automatic radiology report generatio
 ---
 
 
-<details> <summary><strong>📁 Project Structure</strong> (click to expand)</summary>
-pgsql
-Copy
-Edit
+<details>
+<summary><strong>📁 Project Structure</strong> (click to expand)</summary>
+
+```bash
 internship/
-├── data/                         # ⚠️ Not included in repo
+├── data/                         # ⚠️ Not included in repo (private MIMIC-CXR)
 │   ├── cleaned_mimic_image_report_pairs/
 │   ├── final_mimic_tokenised.pt
 │   └── splits/
@@ -33,8 +33,7 @@ internship/
 ├── train.py
 ├── evaluate.py
 └── Data_prep.ipynb
-</details>
-
+</details> ```
 
 
 ---
