@@ -1,4 +1,4 @@
-# 🧠 Chest X-Ray Report Generation
+#  Chest X-ray Report Generation using Image Captioning and RAG
 
 A vision-language deep learning project for automatic radiology report generation from chest X-ray images using transformer-based architectures.
 
@@ -58,6 +58,7 @@ internship/
 | DenseNet + Transformer Decoder |      2.6012 |       2.1193 |     0.332 |     0.061 |      0.268 |     0.091 | Slightly better but still redundant |
 | Swin Transformer + GPT-2       |      1.2495 |       1.0812 |     0.447 |     0.097 |      0.352 |     0.111 | Better specificity, less repetition |
 | ConvNeXt + Transformer Decoder |      1.1063 |       0.9678 |     0.489 |     0.134 |      0.398 |     0.127 | Best model; detailed & structured  |
+| RAG                            |      0.8063 |       0.6678 |     0.489 |     0.434 |      0.518 |     0.327 | Best Pipeline                      |
 
 ---
 
