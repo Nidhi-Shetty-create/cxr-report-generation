@@ -52,6 +52,7 @@ internship/
 - DenseNet + Transformer Decoder
 - Swin Transformer + GPT
 - ConvNeXt + Transformer Decoder ✅ (Best)
+- RAG (ViT+ClinicalBert+FAISS+T5)
 
 ---
 
