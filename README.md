@@ -11,34 +11,7 @@ A vision-language deep learning project for automatic radiology report generatio
 <summary><strong>📁 Project Structure</strong> (click to expand)</summary>
 
 ```bash
-internship/
-├── data/                         # ⚠️ Not included in repo (private MIMIC-CXR)
-│   ├── cleaned_mimic_image_report_pairs/
-│   ├── final_mimic_tokenised.pt
-│   └── splits/
-│       ├── train.json
-│       ├── val.json
-│       └── test.json
-├── datasets/
-│   └── mimic_dataset.py
-├── models/
-|   ├── rag_model
-|   |   ├── generator.py
-|   |   ├── image_encoder.py
-|   |   ├── rag_pipeline.py
-|   |   ├── retriever.py
-|   |   ├── text_encoder.py
-│   ├── vit_gpt2.py
-│   ├── resnet_lstm.py
-│   ├── densenet_transformer.py
-│   ├── swin_gpt2.py
-│   └── convnext_transformer.py
-├── utils/
-│   └── metrics.py
-├── prepare_splits.py
-├── train.py
-├── evaluate.py
-└── Data_prep.ipynb
+
 ```
 </details> 
 
