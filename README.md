@@ -22,6 +22,12 @@ internship/
 ├── datasets/
 │   └── mimic_dataset.py
 ├── models/
+|   ├── rag_model
+|   |   ├── generator.py
+|   |   ├── image_encoder.py
+|   |   ├── rag_pipeline.py
+|   |   ├── retriever.py
+|   |   ├── text_encoder.py
 │   ├── vit_gpt2.py
 │   ├── resnet_lstm.py
 │   ├── densenet_transformer.py
